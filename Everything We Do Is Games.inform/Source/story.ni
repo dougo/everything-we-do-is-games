@@ -1,5 +1,7 @@
 "Everything We Do Is Games" by Doug Orleans.
 
+[This program is copyright © Doug Orleans 2015. It is distributed under the terms of the GNU Affero General Public License (AGPL) 3.0. See the file COPYING for details. Source code is available via the public git repository at http://github.com/dougo/everything-we-do-is-games.]
+
 The story headline is "A Null Game".
 The story genre is "Other".
 The release number is 1.
