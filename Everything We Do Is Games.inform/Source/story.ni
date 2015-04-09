@@ -1,4 +1,9 @@
-"Everything We Do Is Games" by "Doug Orleans"
+"Everything We Do Is Games" by Doug Orleans.
+The story headline is "".
+The story genre is "Other".
+The release number is 1.
+The story creation year is 2015.
+Release along with cover art ("I TACET II TACET III TACET"), an interpreter, the source text, the library card, and a website.
 
 [Inspired by John Cage's 4'33" for ShuffleComp Disc 2, 2015.]
 
