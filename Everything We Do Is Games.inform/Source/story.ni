@@ -20,3 +20,10 @@ When III ends: end the story finally.
 
 The print player's obituary rule is not listed in the shutdown rulebook.
 The ask the final question rule is not listed in the shutdown rulebook.
+
+[The following is necessary to avoid printing three blank lines at startup. These are hardcoded into the virtual machine startup rule, so this replaces that rule with a simple call to the VM initialize function.]
+This is the virtual machine startup with no output rule: initialize the virtual machine.
+The virtual machine startup with no output rule substitutes for the virtual machine startup rule.
+To initialize the virtual machine: (- VM_Initialise(); -).
+
+[Unfortunately there is still a single blank line printed at startup. This is due to the fact that the say__p global is initialized to 1, and it is checked at the beginning of every rulebook to determine whether to print a paragraph break; in particular, the first thing the Main function does is follow the startup rulebook. I don't see any way to avoid this, other than overriding Main (or FollowRulebook), which just seems like a bridge too far...]
