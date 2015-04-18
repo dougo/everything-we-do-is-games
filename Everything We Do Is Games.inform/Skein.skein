@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x1313760" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x13c2750" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0x1313760"/>
-  <item nodeId="node-0x1313760">
+  <activeNode nodeId="node-0x13c2750"/>
+  <item nodeId="node-0x13c2750">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -15,14 +15,14 @@
 [ The game has finished ]
 </commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0x13138e0"/>
+      <child nodeId="node-0x13c28d0"/>
     </children>
   </item>
-  <item nodeId="node-0x13138e0">
+  <item nodeId="node-0x13c28d0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
@@ -31,10 +31,10 @@
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve">I. TACET</annotation>
     <children>
-      <child nodeId="node-0x1313a60"/>
+      <child nodeId="node-0x13c2a50"/>
     </children>
   </item>
-  <item nodeId="node-0x1313a60">
+  <item nodeId="node-0x13c2a50">
     <command xml:space="preserve"></command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
@@ -43,10 +43,10 @@
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve">II. TACET</annotation>
     <children>
-      <child nodeId="node-0x1313be0"/>
+      <child nodeId="node-0x13c2bd0"/>
     </children>
   </item>
-  <item nodeId="node-0x1313be0">
+  <item nodeId="node-0x13c2bd0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>

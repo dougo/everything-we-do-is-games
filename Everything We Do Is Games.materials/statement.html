@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Everything We Do Is Games - Author Statement</title>
+  </head>
+  <body>
+    <h2><center>Author Statement</center></h2>
+
+    <p>John Cage said "<a href="https://www.youtube.com/watch?v=rWowppCYTZ0">Everything we do is music.</a>"
+      His 1952 composition
+      <a href="http://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3"><cite>4&prime;33&Prime;</cite></a> is popularly
+      thought to consist of silence, but his intent was to show that there <em>is</em> no silence, practically
+      speaking:
+
+      <blockquote>You could hear the wind stirring outside during the first movement. During the second, raindrops
+        began pattering the roof, and during the third the people themselves made all kinds of interesting sounds
+        as they talked or walked out.</blockquote>
+
+    <p><a href="."><cite>Everything We Do Is Games</cite></a> is my attempt to show that even a null interactive
+      fiction game is a game. Many have pointed out that all fiction is interactive, to some extent: the reader
+      chooses whether and when to turn the page, as
+      in <a href="http://ifdb.tads.org/viewgame?id=3l73pkt3g127dqf6">Jesse McGrew's <cite>Moby Dick; or, The
+      Whale</cite></a>, or <a href="http://smollin.com/michael/tmonstr/mon001.html">Jon Stone's <cite>The Monster
+      at the end of this Book</cite></a>. Moreover, the reader's mind interacts with the fiction, choosing to
+      create mental images and associations not literally present in the text but prompted by it, intentionally or
+      not. The reading experience might even involve solving puzzles (such as murder mysteries). The experience of
+      playing <cite>Everything We Do Is Games</cite> may involve confusion or surprise, as the player is confronted
+      with a screen that says nothing but "<tt>[Hit any key to exit.]</tt>", or a brief "Parchment is loading."
+      popup. After some consideration, and perhaps some experimentation such as reloading the game or trying a
+      different interpreter, the player may come to understand that the game is in fact a null game; this state of
+      satisfaction and enlightenment can be considered the winning (and only) ending.
+
+    <p>You may grant that a null interactive fiction game is a game, and interactive, but is it fiction? In fact,
+      it's both fiction and non-fiction: perhaps it is a simulation of what it's like to be a zombie, or an
+      inventory of the contents of a geometric point, or a story of the events before the creation of the universe,
+      or a tutorial for how to beat your heart. Ultimately, it's an instance of communication of an idea or set of
+      ideas, wordlessly, just like all music and games.
+
+    <p>The name of <cite>4&prime;33&Prime;</cite> comes from the total length of the first performance of the
+      piece, but the piece itself does not prescribe a length: the score (pictured in <a href="Cover.png">the cover
+      art for <cite>Everything We Do Is Games</cite></a>) consists of three movements, each consisting of the word
+      <strong>TACET</strong> (Latin for "it is silent"), a musical instruction to refrain from playing an
+      instrument. The performer is free to choose the duration of each movement, although Cage's original idea was
+      for the piece to be "three or four-and-a-half minutes long&mdash;those being the standard lengths of 'canned'
+      music", so that it could be sold to Muzak Co. I considered adding a timer to the game, so that it would last
+      either 4:33 or 2 hours (the <a href="http://www.ifcomp.org/rules/">prescribed maximum length of an IFComp
+      game</a>), but I decided that would actually make it <em>less</em> interactive than Cage's piece!  Instead,
+      like a performer of <cite>4&prime;33&Prime;</cite>, the player can choose any length of time to play the
+      game, until hitting any key or navigating away from the browser page. (One might also consider a playthrough
+      of <cite>Everything We Do Is Games</cite> to itself <em>be</em> a performance
+      of <cite>4&prime;33&Prime;</cite>. It's also the soundtrack to the game.)
+
+    <p>While <cite>Everything We Do Is Games</cite> is a null <em>game</em>, it is not a null <em>program</em>,
+      just as the score for <cite>4&prime;33&Prime;</cite> is not a blank page. In particular, the game consists of
+      three <em>scenes</em>, an <a href="http://inform7.com/">Inform 7</a> concept to organize the turns of a
+      game. The scenes correspond to the three movements of <cite>4&prime;33&Prime;</cite>, and each scene consists
+      of zero turns. Unfortunately, these scenes are not perceptible to the player the way that the movements are
+      usually perceptible to the audience of a performance of <cite>4&prime;33&Prime;</cite>: traditionally, a
+      performer will close the keyboard lid of a piano at the beginning of each movement, and open it at the
+      end. In this aspect, the role of performer is played by the interpreter program (i.e., the computer) rather
+      than the player: of course, computers tend to have a much shorter attention span than players, and they will
+      choose to perform each scene for only a millisecond or so.
+
+    <p>In addition to defining the three scenes, <a href="source.html">the game's source program</a> includes
+      several statements to inhibit things that Inform 7 prints by default. These took some work to figure out, and
+      in fact I was not able to eliminate one blank line that Inform 7 games print at startup. This is possible to
+      do, by replacing the main routine with custom Inform 6 code, but at that point I might as well have just
+      implemented the game in <a href="http://inform-fiction.org/">Inform 6</a>, in which a null game can be
+      written simply as <code>[Main;];</code>. I chose to use Inform 7, the current state-of-the-art tool for
+      authoring interactive fiction, in part to demonstrate how much machinery is involved with creating a typical
+      game: the generated Inform 6 source code is 54,000 lines, and the output Z-code file is over 300k, because
+      they include the entire parser and world model library that most non-null games rely on. This is analogous to
+      arranging an entire symphony orchestra in a concert hall to perform <cite>4&prime;33&Prime;</cite>,
+      <a href="https://www.youtube.com/watch?v=zY7UK-6aaNA">as was done in 2004 in London</a>.
+
+    <p><a href="http://nickm.com/trope_tank/TROPE-13-03.pdf">As Nick Montfort points out</a>, unlike the empty set
+      of mathematics and the null string of computer science, there is no single null program, but an abundance of
+      null programs. This is even more true about null games: not only are there countless ways to write a null
+      interactive fiction, and numerous IF implementation platforms, but there are a vast plethora of other game
+      genres, each with its own community of practice and authoring tools. I encourage all reading this to create
+      their own null games in their favorite genres, and consider how their frames influence the experience of
+      playing the games. I also invite the reader to reflect on what it means to play a game, even beyond the
+      boundaries of traditionally defined game structures: what exactly are games, anyway? I believe that, on
+      multiple levels, everything we do is games.
+
+    <p><center>Doug Orleans, April 2015</center>
+  </body>
+</html>

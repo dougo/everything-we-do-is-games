@@ -8,7 +8,7 @@ The release number is 1.
 The story description is "Inspired by John Cage's 4′33″ for ShuffleComp Disc 2."
 The story creation year is 2015.
 
-Release along with cover art ("I TACET II TACET III TACET"), an interpreter, the source text, the library card, a public solution, and a website.
+Release along with cover art ("I TACET II TACET III TACET"), an interpreter, the source text, the library card, a public solution, a file of "Author's Statement" called "statement.html", and a website.
 
 TACET is a room.
 
