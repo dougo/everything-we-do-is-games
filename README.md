@@ -2,7 +2,7 @@ Everything We Do Is Games
 =========================
 
 A null game, inspired by John Cage's 4′33″ for [ShuffleComp Disc 2](http://www.nigeljayne.ca/shufflecomp2015.html).
-See statement.html in the "Everything We Do Is Games.materials" directory for the author's statement.
+[The game can be played online.](http://steak.place.org/games/everything-we-do-is-games/)
 
 To compile, load the "Everything We Do Is Games.inform" directory in the [Inform 7](http://inform7.com/) IDE and
 press the play button. Press the release button to generate a zblorb and a website in the "Everything We Do Is
